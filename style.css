@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-color: #99a09e;
+}
+header {
+    background-color: #11344a;
+    color: rgb(170, 221, 230);
+    font-family:'Times New Roman', Times, serif ;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: bold;
+    height: 25px;
+    padding: 10px;
+}
+nav a {
+    color: rgb(255, 252, 59);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: aqua;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgb(237, 226, 226);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    border-bottom: 2px solid #33140f;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+.menu-item h3 {
+    margin: 0;
+}
+.menu-item p {
+    margin: 5px 0;
+    text-align: center;
+}
+.price {
+    font-weight: bold;
+    color: #ff6347;
+}
+.image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.cover-page {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 2);
+}
+.cover-page h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #000000;
+
+}
+.cover-page img {
+    width: 300px;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: #313131;
+}
+.container h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bolder;
+    font-size: 45px;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
